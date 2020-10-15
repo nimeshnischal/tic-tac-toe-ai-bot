@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# <p style="text-align: center;"><b>TIC TAC TOE</b></p>
 
-## Available Scripts
+Challenge your intellect by competing in a game of <b>Tic Tac Toe</b> with the never-defeated, the champions of the champions, the one above all...
 
-In the project directory, you can run:
+## <p style="text-align: center;"><b>THE AI BOT</b></p>
 
-### `npm start`
+The bot works in two ways (can be switched to either via UI):
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Using **pre-computed** steps:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+    Writing conditional checks for all possible scenarios of winning & losing the game manually.
+    |  Pros |  Cons  |
+    |---|---|
+    | Fast execution time, with complexity at O(b)  | Dev + test time more than 8 hours |
+    | Basic programming knowledge required to code | Risk of some edge cases being ignored|
+2. Using **minimax** algorithm:
 
-### `npm test`
+    Using a type of adversarial search to get the next move by going through all the possible moves & predicting opponents moves.
+    |  Pros |  Cons  |
+    |---|---|
+    | Faster Dev + test time (around 2-3 hours) + 1 hour for learning minimax | Slow execution in intitial part of the game, with complexity at O(b^m) |
+    | No need to check if all edge cases are covered | Knowledge of concepts like Adversarial search & minimax algorithm is needed |
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Note: In above complexities, b denotes number of legal moves & m denotes maximum depth of the computation tree.
 
-### `npm run build`
+## How to run
+### Dependency:
+ - npm v6.14.7
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the project to your local machine. Go to the root of the project and run:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```npm start```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Browser should be opened automatically with the web application. if not, go to:
 
-### `npm run eject`
+```localhost:3000```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Have fun trying to defeat the bot!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tools used
+ - React JS v16.13.1
+ - material-ui/core v4.11.0
+ - font-awesome v4.7.0
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## References & Acknowledgements
+ - https://orangeqa.in/bot001 for turning my interest towards tic-tac-toe bot
+ - edx's<a href="https://courses.edx.org/courses/course-v1:HarvardX+CS50AI+1T2020/course/"> CS50's Introduction to Artificial Intelligence with Python</a> course
