@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/nimeshnischal/tic-tac-toe-ai-bot/static/css/main.5b39b757.chunk.css",
+    "main.js": "/nimeshnischal/tic-tac-toe-ai-bot/static/js/main.e04f589f.chunk.js",
+    "main.js.map": "/nimeshnischal/tic-tac-toe-ai-bot/static/js/main.e04f589f.chunk.js.map",
+    "runtime-main.js": "/nimeshnischal/tic-tac-toe-ai-bot/static/js/runtime-main.fd66815f.js",
+    "runtime-main.js.map": "/nimeshnischal/tic-tac-toe-ai-bot/static/js/runtime-main.fd66815f.js.map",
+    "static/css/2.593b1e63.chunk.css": "/nimeshnischal/tic-tac-toe-ai-bot/static/css/2.593b1e63.chunk.css",
+    "static/js/2.d8c1b7ae.chunk.js": "/nimeshnischal/tic-tac-toe-ai-bot/static/js/2.d8c1b7ae.chunk.js",
+    "static/js/2.d8c1b7ae.chunk.js.map": "/nimeshnischal/tic-tac-toe-ai-bot/static/js/2.d8c1b7ae.chunk.js.map",
+    "index.html": "/nimeshnischal/tic-tac-toe-ai-bot/index.html",
+    "precache-manifest.97271d873066b801c868abdeb41798d1.js": "/nimeshnischal/tic-tac-toe-ai-bot/precache-manifest.97271d873066b801c868abdeb41798d1.js",
+    "service-worker.js": "/nimeshnischal/tic-tac-toe-ai-bot/service-worker.js",
+    "static/css/2.593b1e63.chunk.css.map": "/nimeshnischal/tic-tac-toe-ai-bot/static/css/2.593b1e63.chunk.css.map",
+    "static/css/main.5b39b757.chunk.css.map": "/nimeshnischal/tic-tac-toe-ai-bot/static/css/main.5b39b757.chunk.css.map",
+    "static/js/2.d8c1b7ae.chunk.js.LICENSE.txt": "/nimeshnischal/tic-tac-toe-ai-bot/static/js/2.d8c1b7ae.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/nimeshnischal/tic-tac-toe-ai-bot/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd66815f.js",
+    "static/css/2.593b1e63.chunk.css",
+    "static/js/2.d8c1b7ae.chunk.js",
+    "static/css/main.5b39b757.chunk.css",
+    "static/js/main.e04f589f.chunk.js"
+  ]
+}
