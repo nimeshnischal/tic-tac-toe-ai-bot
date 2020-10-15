@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be7a9651df050b0a384ab45fa0328422",
+    "revision": "53733ead3c6346d461be815c5628a6b1",
     "url": "/tic-tac-toe-ai-bot/index.html"
   },
   {
-    "revision": "f8ed42c2dd533c8a06b9",
+    "revision": "3010576a15ce30f76122",
     "url": "/tic-tac-toe-ai-bot/static/css/2.2f2fdc4b.chunk.css"
   },
   {
-    "revision": "7aaff29e0e017535097b",
-    "url": "/tic-tac-toe-ai-bot/static/css/main.15d04863.chunk.css"
+    "revision": "b4360e5694d238b26b5c",
+    "url": "/tic-tac-toe-ai-bot/static/css/main.ca1b865d.chunk.css"
   },
   {
-    "revision": "f8ed42c2dd533c8a06b9",
-    "url": "/tic-tac-toe-ai-bot/static/js/2.d8c1b7ae.chunk.js"
+    "revision": "3010576a15ce30f76122",
+    "url": "/tic-tac-toe-ai-bot/static/js/2.77ec58a6.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/tic-tac-toe-ai-bot/static/js/2.d8c1b7ae.chunk.js.LICENSE.txt"
+    "url": "/tic-tac-toe-ai-bot/static/js/2.77ec58a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7aaff29e0e017535097b",
-    "url": "/tic-tac-toe-ai-bot/static/js/main.faf071bc.chunk.js"
+    "revision": "b4360e5694d238b26b5c",
+    "url": "/tic-tac-toe-ai-bot/static/js/main.3c61aad9.chunk.js"
   },
   {
     "revision": "af751a761561e94c7ff1",

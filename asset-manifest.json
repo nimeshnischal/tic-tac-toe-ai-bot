@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/tic-tac-toe-ai-bot/static/css/main.15d04863.chunk.css",
-    "main.js": "/tic-tac-toe-ai-bot/static/js/main.faf071bc.chunk.js",
-    "main.js.map": "/tic-tac-toe-ai-bot/static/js/main.faf071bc.chunk.js.map",
+    "main.css": "/tic-tac-toe-ai-bot/static/css/main.ca1b865d.chunk.css",
+    "main.js": "/tic-tac-toe-ai-bot/static/js/main.3c61aad9.chunk.js",
+    "main.js.map": "/tic-tac-toe-ai-bot/static/js/main.3c61aad9.chunk.js.map",
     "runtime-main.js": "/tic-tac-toe-ai-bot/static/js/runtime-main.6fe9bc61.js",
     "runtime-main.js.map": "/tic-tac-toe-ai-bot/static/js/runtime-main.6fe9bc61.js.map",
     "static/css/2.2f2fdc4b.chunk.css": "/tic-tac-toe-ai-bot/static/css/2.2f2fdc4b.chunk.css",
-    "static/js/2.d8c1b7ae.chunk.js": "/tic-tac-toe-ai-bot/static/js/2.d8c1b7ae.chunk.js",
-    "static/js/2.d8c1b7ae.chunk.js.map": "/tic-tac-toe-ai-bot/static/js/2.d8c1b7ae.chunk.js.map",
+    "static/js/2.77ec58a6.chunk.js": "/tic-tac-toe-ai-bot/static/js/2.77ec58a6.chunk.js",
+    "static/js/2.77ec58a6.chunk.js.map": "/tic-tac-toe-ai-bot/static/js/2.77ec58a6.chunk.js.map",
     "index.html": "/tic-tac-toe-ai-bot/index.html",
-    "precache-manifest.bc412e40abb7b07aa712910e0df22a90.js": "/tic-tac-toe-ai-bot/precache-manifest.bc412e40abb7b07aa712910e0df22a90.js",
+    "precache-manifest.480f6b707a10e9948757ec1928804fdb.js": "/tic-tac-toe-ai-bot/precache-manifest.480f6b707a10e9948757ec1928804fdb.js",
     "service-worker.js": "/tic-tac-toe-ai-bot/service-worker.js",
     "static/css/2.2f2fdc4b.chunk.css.map": "/tic-tac-toe-ai-bot/static/css/2.2f2fdc4b.chunk.css.map",
-    "static/css/main.15d04863.chunk.css.map": "/tic-tac-toe-ai-bot/static/css/main.15d04863.chunk.css.map",
-    "static/js/2.d8c1b7ae.chunk.js.LICENSE.txt": "/tic-tac-toe-ai-bot/static/js/2.d8c1b7ae.chunk.js.LICENSE.txt",
+    "static/css/main.ca1b865d.chunk.css.map": "/tic-tac-toe-ai-bot/static/css/main.ca1b865d.chunk.css.map",
+    "static/js/2.77ec58a6.chunk.js.LICENSE.txt": "/tic-tac-toe-ai-bot/static/js/2.77ec58a6.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/tic-tac-toe-ai-bot/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.6fe9bc61.js",
     "static/css/2.2f2fdc4b.chunk.css",
-    "static/js/2.d8c1b7ae.chunk.js",
-    "static/css/main.15d04863.chunk.css",
-    "static/js/main.faf071bc.chunk.js"
+    "static/js/2.77ec58a6.chunk.js",
+    "static/css/main.ca1b865d.chunk.css",
+    "static/js/main.3c61aad9.chunk.js"
   ]
 }
