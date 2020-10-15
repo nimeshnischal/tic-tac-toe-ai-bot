@@ -5,9 +5,17 @@ body {
     background-color: rgb(4, 3, 26);
 }
 
+a {
+    color: aqua;
+}
+
 .board {
     width: fit-content;
 }
+
+.board-row {
+    display: flex;
+  }
 
 .player-symbol {
     font-family: fantasy;
@@ -26,6 +34,10 @@ body {
     color: grey;
 }
 
+.white {
+    color: white;
+}
+
 .table {
     display: inline-table;
 }
@@ -40,6 +52,10 @@ body {
 
 .mg-30 {
     margin: 30px;
+}
+
+.pdt-20 {
+    padding-top: 20px;
 }
 
 .mgb-0 {
@@ -124,6 +140,7 @@ body {
 }
 
 .icon-button {
+    display: inline-grid;
     width: fit-content;
     background: transparent;
     border: none;
@@ -133,6 +150,10 @@ body {
 
 .magnify-4 {
     transform: scale(4);
+}
+
+.magnify-0-5 {
+    transform: scale(0.5);
 }
 
 .inline-block {

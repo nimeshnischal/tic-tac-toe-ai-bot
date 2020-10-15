@@ -38,16 +38,15 @@ export default function BotInfo(props) {
                     </span>
                 </span>
             </div>
-            <div >
-                <button
-                    title="Play bot's chance"
-                    className="icon-button magnify-4"
-                    disabled={!props.isBotsChance || props.winner || props.draw}
-                    onClick={props.playBotsChance}>
-                        <i className={`fa fa-play fa-shadow ${!props.isBotsChance || props.winner || props.draw ? 'grey' : 'green'}`}
-                            aria-hidden="true"></i>
-                </button>
-            </div>
+            <button
+                title="Play bot's chance"
+                className="icon-button magnify-4 pdt-20"
+                disabled={!props.isBotsChance || props.winner || props.draw}
+                onClick={props.playBotsChance}>
+                    <i className={`fa fa-play fa-shadow ${!props.isBotsChance || props.winner || props.draw ? 'grey' : 'green'}`}
+                        aria-hidden="true"></i>
+                        <span className="note magnify-0-5 white">Play bot</span>
+            </button>
         </div>
     );
 }

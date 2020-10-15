@@ -169,12 +169,14 @@ class Game extends React.Component {
                         className="icon-button magnify-4 mg-30 mgb-0"
                         onClick={this.undoLastMove}>
                         <i className='fa fa-undo fa-shadow' aria-hidden="true"></i>
+                        <span className="note magnify-0-5 white">Undo</span>
                     </button>
                     <button
                         title="Restart game"
                         className="icon-button magnify-4 mg-30 mgb-0"
                         onClick={this.resetGame}>
                         <i className='fa fa-refresh fa-shadow' aria-hidden="true"></i>
+                        <span className="note magnify-0-5 white">Restart</span>
                     </button>
                 </div>
                 <span className="shortcuts">
@@ -198,7 +200,7 @@ class Game extends React.Component {
                 </span>
                 <span className="note"> Note: By default the bot uses pre-computed steps. When AI is enabled, bot uses minimax search algorithm.
                     Note the difference in the speed of bot's decision in when AI is enabled or disabled, and when the board is empty or full.
-                    Refer github repo for more details.</span>
+                    Refer <a target="_blank" rel="noopener noreferrer" href="https://github.com/nimeshnischal/tic-tac-toe-ai-bot">github repo</a> for more details.</span>
             </div>
         );
     }

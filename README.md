@@ -4,6 +4,8 @@ Challenge your intellect by competing in a game of <b>Tic Tac Toe</b> with the n
 
 ## <p style="text-align: center;"><b>THE AI BOT</b></p>
 
+Test the bot here: https://nimeshnischal.github.io/tic-tac-toe-ai-bot/
+
 The bot works in two ways (can be switched to either via UI):
 
 1. Using **pre-computed** steps:
@@ -25,7 +27,7 @@ Note: In above complexities, b denotes number of legal moves & m denotes maximum
 
 ## How to run
 ### Dependency:
- - npm v6.14.7
+ - npm v^6.14.7
 
 Clone the project to your local machine. Go to the root of the project and run:
 
