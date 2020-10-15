@@ -4,11 +4,12 @@ import Square from './Square.jsx';
 class Board extends React.Component {
 
     renderSquare(i) {
-        const { board = [], playAtPos } = this.props;
+        const { board = [], playAtPos, winningPositions } = this.props;
         return (
             <Square
                 key={'square-'+i}
                 value={board[i]}
+                isWinningPosition={winningPositions.includes(i)}
                 onClick={() => playAtPos(i)}/>
         );
     }
@@ -28,7 +29,7 @@ class Board extends React.Component {
         }
         return (
             <div className="inline-block">
-                <div className="board">
+                <div className="fit-content">
                     {boardRowComponents}
                 </div>
             </div>

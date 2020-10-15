@@ -32,21 +32,20 @@ export default function BotInfo(props) {
                         onChange={props.toggleEnableAI}/>
                 </div>
                 <span className="flex-grow-1 left pdtb-20">
-                    <i className={'fa fa-clock-o'} aria-hidden="true"></i>
+                    <i className="fa fa-clock-o" aria-hidden="true"></i>
                     <span className="mgl-10 inline-block" style={{width: '100px'}}>
                         { props.timeTakenByBot !== undefined ? `${props.timeTakenByBot}` : ''} ms
                     </span>
                 </span>
             </div>
-            <button
-                title="Play bot's chance"
-                className="icon-button magnify-4 pdt-20"
-                disabled={!props.isBotsChance || props.winner || props.draw}
-                onClick={props.playBotsChance}>
-                    <i className={`fa fa-play fa-shadow ${!props.isBotsChance || props.winner || props.draw ? 'grey' : 'green'}`}
-                        aria-hidden="true"></i>
-                        <span className="note magnify-0-5 white">Play bot</span>
-            </button>
+            {
+                props.thinking ?
+                <div className="icon-button magnify-2 mgt-30">
+                    <i className={'fa fa-spinner fa-spin fa-shadow icon green'} aria-hidden="true"></i>
+                        <span className="note white">Bot is thinking</span>
+                </div>
+                : ''
+            }
         </div>
     );
 }

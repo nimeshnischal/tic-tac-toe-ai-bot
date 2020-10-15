@@ -15,6 +15,9 @@ The bot works in two ways (can be switched to either via UI):
     |---|---|
     | Fast execution time, with complexity at O(b)  | Dev + test time more than 8 hours |
     | Basic programming knowledge required to code | Risk of some edge cases being ignored|
+
+    Avg. time on an empty board: 1 ms
+
 2. Using **minimax** algorithm:
 
     Using a type of adversarial search to get the next move by going through all the possible moves & predicting opponents moves.
@@ -22,6 +25,12 @@ The bot works in two ways (can be switched to either via UI):
     |---|---|
     | Faster Dev + test time (around 2-3 hours) + 1 hour for learning minimax | Slow execution in intitial part of the game, with complexity at O(b^m) |
     | No need to check if all edge cases are covered | Knowledge of concepts like Adversarial search & minimax algorithm is needed |
+
+    Avg. time on an empty board: 200 ms
+
+### **Update**
+
+Using alpha-beta pruning, reduced the avg. time on an empty board to 35 ms.
 
 Note: In above complexities, b denotes number of legal moves & m denotes maximum depth of the computation tree.
 

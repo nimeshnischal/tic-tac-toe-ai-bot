@@ -1,5 +1,10 @@
+/* @font-face {
+    font-family: 'Createland';
+    src: local('Createland'), url(./fonts/Createland.otf) format('otf');
+} */
+
 body {
-    font: 24px "Century Gothic", Futura, sans-serif;
+    font: 32px "Patrick Hand", Futura, sans-serif;
     color: floralwhite;
     margin: 20px;
     background-color: rgb(4, 3, 26);
@@ -9,16 +14,12 @@ a {
     color: aqua;
 }
 
-.board {
-    width: fit-content;
-}
-
 .board-row {
     display: flex;
-  }
+}
 
 .player-symbol {
-    font-family: fantasy;
+    font-family: "Patrick Hand SC", Futura, sans-serif;
     font-size: 48px;
 }
 
@@ -54,8 +55,12 @@ a {
     margin: 30px;
 }
 
-.pdt-20 {
-    padding-top: 20px;
+.mgt-30 {
+    margin-top: 30px;
+}
+
+.mgt-50 {
+    margin-top: 50px;
 }
 
 .mgb-0 {
@@ -81,6 +86,10 @@ a {
 .left {
     text-align: start;
 }
+
+.width-100 {
+    width: 100%;
+}
  
 .vertical-middle {
     vertical-align: middle;
@@ -91,15 +100,18 @@ a {
     border: 3px solid rgb(85, 85, 85);
     float: left;
     font-size: 144px;
-    font-family: fantasy;
+    font-family: "Patrick Hand SC", Futura, sans-serif;
     line-height: 34px;
     height: 150px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
-    padding-top: 40px;
     text-align: center;
     width: 150px;
+}
+
+.square-winner {
+    background: lawngreen;
 }
 
 .square:focus {
@@ -139,6 +151,11 @@ a {
     margin: 20px;
 }
 
+.icon {
+    width: fit-content;
+    margin: auto;
+}
+
 .icon-button {
     display: inline-grid;
     width: fit-content;
@@ -146,6 +163,10 @@ a {
     border: none;
     color: lawngreen;
     outline: none;
+}
+
+.magnify-2 {
+    transform: scale(2);
 }
 
 .magnify-4 {
@@ -195,9 +216,9 @@ a {
 }
 
 .shortcuts {
-    font-size: 16px;
+    font: 16px;
 }
 
 .note {
-    font-size: 10px;
+    font: 16px "Patrick Hand", Futura, sans-serif;
 }

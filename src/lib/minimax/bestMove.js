@@ -1,4 +1,4 @@
-import getWinner from '../winner.js';
+import {getWinnerInBoard} from '../winner.js';
 
 export default class BestMove {
     constructor(player) {
@@ -34,7 +34,7 @@ export default class BestMove {
 
     // returns true if current state of board has a winner
     terminal(board) {
-        return getWinner(board) !== undefined || !board.includes(undefined);
+        return getWinnerInBoard(board) !== undefined || !board.includes(undefined);
     }
 
     /**
@@ -44,7 +44,7 @@ export default class BestMove {
      *      -1  -> if opponent wins
      */
     utility(board) {
-        const winner = getWinner(board);
+        const winner = getWinnerInBoard(board);
         return winner === undefined ? 0 : winner === this.player ? 1 : -1;
     }
 
@@ -58,6 +58,7 @@ export default class BestMove {
                 if (minValue !== 2 && minValue > maxValue) {
                     maxValue = minValue;
                 }
+                if (maxValue === 1) break;  // Alpha pruning
             }
         return maxValue;
     }
@@ -72,6 +73,7 @@ export default class BestMove {
                 if (maxValue !== -2 && maxValue < minValue) {
                     minValue = maxValue;
                 }
+                if (minValue === -1) break; // Beta pruning
             }
         return minValue;
     }
