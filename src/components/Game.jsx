@@ -30,20 +30,6 @@ class Game extends React.Component {
         document.removeEventListener("keydown", this.handleKeyDown);
     }
 
-    handleKeyDown = (event) => {
-        const { isBotsChance } = this.state;
-        switch (event.code) {
-            case 'ArrowRight': isBotsChance && this.playBotsChance();
-                break;
-            case 'ArrowLeft': this.undoLastMove();
-                break;
-            case 'KeyR':
-            case 'KeyN': this.resetGame();
-                break;
-            default: break;
-        }
-    }
-
     resetGame = () => {
         const willOpponentStart = Math.random() >= 0.5;
         this.setState({
@@ -196,43 +182,24 @@ class Game extends React.Component {
                             />
                     </div>
                 </div>
-                <div className="center pd-40 pdb-0 width-100">
+                <div className="center width-100">
                     <button
                         title="Undo last chance"
-                        className="icon-button magnify-4 mg-30 mgb-0">
-                        <i className='fa fa-undo fa-shadow icon' aria-hidden="true" 
-                            onClick={this.undoLastMove}></i>
-                        <span className="note magnify-0-5 white">Undo</span>
+                        className="display-contents icon-button mglr-20"
+                        onClick={this.undoLastMove}>
+                        <span className="white">Undo</span>
+                        <i className='fa fa-undo fa-shadow mgl-10' aria-hidden="true"></i>
                     </button>
                     <button
                         title="Restart game"
-                        className="icon-button magnify-4 mg-30 mgb-0">
-                        <i className='fa fa-refresh fa-shadow icon' aria-hidden="true"
-                            onClick={this.resetGame}></i>
-                        <span className="note magnify-0-5 white">Restart</span>
+                        className="display-contents icon-button mglr-20"
+                        onClick={this.resetGame}>
+                        <i className='fa fa-refresh fa-shadow' aria-hidden="true"></i>
+                        <span className="white mgl-10">Restart</span>
                     </button>
                 </div>
-                <span className="shortcuts">
-                    Shortcuts<br/>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td className="pdlr-15 center"><i className='fa fa-arrow-right' aria-hidden="true"/></td>
-                                <td>Play bot's next chance</td>
-                            </tr>
-                            <tr>
-                                <td className="pdlr-15 center"><i className='fa fa-arrow-left' aria-hidden="true"/></td>
-                                <td>Undo previous step</td>
-                            </tr>
-                            <tr>
-                                <td className="pdlr-15 center">R/N</td>
-                                <td>Reset Game / New Game</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </span>
-                <span className="note"> Note: By default the bot uses pre-computed steps. When AI is enabled, bot uses minimax search algorithm.
-                    Note the difference in the speed of bot's decision (refer speed beside AI swith) when AI is enabled or disabled, and when the board is empty or full.
+                <span className="note"> <b style={{color: 'red'}}>Note:</b> By default the bot uses pre-computed steps. When AI is enabled, bot uses minimax search algorithm.<br/>
+                    Notice the difference in bot's decision speed (refer time beside AI switch) when AI is enabled or disabled, and when the board is empty or full.<br/>
                     Refer <a target="_blank" rel="noopener noreferrer" href="https://github.com/nimeshnischal/tic-tac-toe-ai-bot">github repo</a> for more details.</span>
             </div>
         );

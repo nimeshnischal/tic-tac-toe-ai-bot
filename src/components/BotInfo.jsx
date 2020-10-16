@@ -8,7 +8,7 @@ export default function BotInfo(props) {
                 <b>Bot</b><br/>
                 <div className="player-symbol">{props.botPlayer}</div>
             </div>
-            <table className="table">
+            <table className="display-table">
                 <thead>
                     <tr>
                         <td className="pdlr-15">Wins</td>
@@ -25,14 +25,14 @@ export default function BotInfo(props) {
                 </tbody>
             </table>
             <div className="flex-row">
-                <div className="flex-grow-1">
+                <div className="flex-grow-1 right">
                     <span className="vertical-middle">AI</span>
                     <Switch
                         title="Use minimax search algorithm"
                         onChange={props.toggleEnableAI}/>
                 </div>
-                <span className="flex-grow-1 left pdtb-20">
-                    <i className="fa fa-clock-o" aria-hidden="true"></i>
+                <span className="flex-grow-1 pdtb-15">
+                    <i className="fa fa-clock-o fa-lg" aria-hidden="true"></i>
                     <span className="mgl-10 inline-block" style={{width: '100px'}}>
                         { props.timeTakenByBot !== undefined ? `${props.timeTakenByBot}` : ''} ms
                     </span>
@@ -40,9 +40,9 @@ export default function BotInfo(props) {
             </div>
             {
                 props.thinking ?
-                <div className="icon-button magnify-2 mgt-30">
-                    <i className={'fa fa-spinner fa-spin fa-shadow icon green'} aria-hidden="true"></i>
-                        <span className="note white">Bot is thinking</span>
+                <div className="icon-button display-inline-grid mgt-30">
+                    <i className={'fa fa-spinner fa-spin fa-shadow fa-2x green'} aria-hidden="true"></i>
+                        <span className="white">Bot is thinking</span>
                 </div>
                 : ''
             }

@@ -14,6 +14,10 @@ a {
     color: aqua;
 }
 
+span {
+    font-family: "Patrick Hand", Futura, sans-serif;
+}
+
 .board-row {
     display: flex;
 }
@@ -39,8 +43,12 @@ a {
     color: white;
 }
 
-.table {
+.display-table {
     display: inline-table;
+}
+
+.display-inline-grid {
+    display: inline-grid;
 }
 
 .pd-40 {
@@ -71,8 +79,16 @@ a {
     margin-left: 10px;
 }
 
+.mglr-20 {
+    margin: 0px 20px;
+}
+
 .pdlr-15 {
     padding: 0px 15px;
+}
+
+.pdtb-15 {
+    padding: 15px 0px;
 }
 
 .pdtb-20 {
@@ -85,6 +101,10 @@ a {
 
 .left {
     text-align: start;
+}
+
+.right {
+    text-align: end;
 }
 
 .width-100 {
@@ -151,13 +171,13 @@ a {
     margin: 20px;
 }
 
-.icon {
+/* .icon {
     width: fit-content;
     margin: auto;
-}
+} */
 
 .icon-button {
-    display: inline-grid;
+    font: 38px "Patrick Hand", Futura, sans-serif;
     width: fit-content;
     background: transparent;
     border: none;
@@ -212,13 +232,9 @@ a {
 }
 
 .fa-shadow {
-    text-shadow: 0 0 3px red;
-}
-
-.shortcuts {
-    font: 16px;
+    text-shadow: 0 0 5px red;
 }
 
 .note {
-    font: 16px "Patrick Hand", Futura, sans-serif;
+    font: 20px "Patrick Hand", Futura, sans-serif;
 }

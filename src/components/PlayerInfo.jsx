@@ -7,7 +7,7 @@ export default function PlayerInfo(props) {
                 <b>Player</b><br/>
                 <div className="player-symbol">{props.symbol}</div>
             </div>
-            <table className="table">
+            <table className="display-table">
                 <thead>
                     <tr>
                         <td className="pdlr-15">Wins</td>

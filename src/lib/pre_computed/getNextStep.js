@@ -49,6 +49,7 @@ const currBoardStateKeyToNextChances = {
     '120000000': [6],
     // Corner first -> Adjacent mid -> after blocker
     '120200100': [4, 8],
+    '120100200': [4],
     // Corner first -> Non opposite corner
     '102000000': [8],
     // Corner first -> non adjacent mid
@@ -115,7 +116,7 @@ const currBoardStateKeyToNextChances = {
     // Corner start -> opp mid
     '200010020': [6, 8],
     // Mid start
-    '020000000': [0, 4, 6, 7],
+    '020000000': [0, 2, 4, 6, 7, 8],
     // Mid start -> opp corner -> adjacent mid
     '020002100': [0, 8],
     '020200100': [8],
@@ -132,7 +133,7 @@ const currBoardStateKeyToNextChances = {
     // Mid start -> center -> opp mid -> blocker
     '020211020': [2, 8],
     // Mid start -> adjacent corner -> adjacent mid below corner
-    '120200000': [5, 8],
+    '120200000': [5, 7],
     // Mid start -> adjacent corner -> adjacent mid below corner -> opp corner to prev step
     '122200010': [8],
     // Mid start -> adjacent corner -> opp corner below prev corner
