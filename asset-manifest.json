@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/tic-tac-toe-ai-bot/static/css/main.db933236.chunk.css",
-    "main.js": "/tic-tac-toe-ai-bot/static/js/main.c47faebb.chunk.js",
-    "main.js.map": "/tic-tac-toe-ai-bot/static/js/main.c47faebb.chunk.js.map",
+    "main.css": "/tic-tac-toe-ai-bot/static/css/main.0ed7d7b2.chunk.css",
+    "main.js": "/tic-tac-toe-ai-bot/static/js/main.7852d27c.chunk.js",
+    "main.js.map": "/tic-tac-toe-ai-bot/static/js/main.7852d27c.chunk.js.map",
     "runtime-main.js": "/tic-tac-toe-ai-bot/static/js/runtime-main.6fe9bc61.js",
     "runtime-main.js.map": "/tic-tac-toe-ai-bot/static/js/runtime-main.6fe9bc61.js.map",
     "static/css/2.d96559dc.chunk.css": "/tic-tac-toe-ai-bot/static/css/2.d96559dc.chunk.css",
     "static/js/2.a66bacbb.chunk.js": "/tic-tac-toe-ai-bot/static/js/2.a66bacbb.chunk.js",
     "static/js/2.a66bacbb.chunk.js.map": "/tic-tac-toe-ai-bot/static/js/2.a66bacbb.chunk.js.map",
     "index.html": "/tic-tac-toe-ai-bot/index.html",
-    "precache-manifest.fb6027f90ec0e36da8732c0f3c7742c0.js": "/tic-tac-toe-ai-bot/precache-manifest.fb6027f90ec0e36da8732c0f3c7742c0.js",
+    "precache-manifest.166a5c5c20644bbcdb0f04e170febeeb.js": "/tic-tac-toe-ai-bot/precache-manifest.166a5c5c20644bbcdb0f04e170febeeb.js",
     "service-worker.js": "/tic-tac-toe-ai-bot/service-worker.js",
     "static/css/2.d96559dc.chunk.css.map": "/tic-tac-toe-ai-bot/static/css/2.d96559dc.chunk.css.map",
-    "static/css/main.db933236.chunk.css.map": "/tic-tac-toe-ai-bot/static/css/main.db933236.chunk.css.map",
+    "static/css/main.0ed7d7b2.chunk.css.map": "/tic-tac-toe-ai-bot/static/css/main.0ed7d7b2.chunk.css.map",
     "static/js/2.a66bacbb.chunk.js.LICENSE.txt": "/tic-tac-toe-ai-bot/static/js/2.a66bacbb.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/tic-tac-toe-ai-bot/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/index.css": "/tic-tac-toe-ai-bot/static/media/patrick-hand-vietnamese-400-normal.c689c389.woff2"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.6fe9bc61.js",
     "static/css/2.d96559dc.chunk.css",
     "static/js/2.a66bacbb.chunk.js",
-    "static/css/main.db933236.chunk.css",
-    "static/js/main.c47faebb.chunk.js"
+    "static/css/main.0ed7d7b2.chunk.css",
+    "static/js/main.7852d27c.chunk.js"
   ]
 }
